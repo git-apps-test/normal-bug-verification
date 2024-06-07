@@ -33,7 +33,7 @@
         "Ubuntu"
       ]
     },
-    "order": 3.0
+    "order": 3
   },
   "displayName": "Sunrise",
   "isSystemTheme": false,
@@ -46,11 +46,11 @@
       "appBoxShadow": "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)"
     },
     "colors": {
-      "backgroundColor": "#F1F5F9",
+      "backgroundColor": "#71717a",
       "primaryColor": "#fca5a5"
     },
     "fontFamily": {
-      "appFont": "Montserrat"
+      "appFont": "Nunito Sans"
     }
   },
   "stylesheet": {
