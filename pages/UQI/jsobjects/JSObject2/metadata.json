@@ -1,11 +1,11 @@
 {
+  "gitSyncId": "62b05c776b9e4a636e38838c_643e1f20c72eab5acb3cd3f8",
+  "id": "UQI_JSObject2",
   "unpublishedCollection": {
     "name": "JSObject2",
     "pageId": "UQI",
     "pluginId": "js-plugin",
     "pluginType": "JS",
-    "actions": [],
-    "archivedActions": [],
     "variables": [
       {
         "name": "myVar1",
@@ -15,10 +15,6 @@
         "name": "myVar2",
         "value": "{}"
       }
-    ],
-    "userPermissions": []
-  },
-  "id": "UQI_JSObject2",
-  "deleted": false,
-  "gitSyncId": "62b05c776b9e4a636e38838c_643e1f20c72eab5acb3cd3f8"
+    ]
+  }
 }

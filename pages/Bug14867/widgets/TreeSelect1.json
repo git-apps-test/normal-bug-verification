@@ -1,70 +1,80 @@
 {
-    "boxShadow": "none",
-    "widgetName": "TreeSelect1",
-    "dynamicPropertyPathList": [{"key": "labelWidth"}],
-    "displayName": "TreeSelect",
-    "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
-    "labelText": "Label",
-    "searchTags": ["dropdown"],
-    "topRow": 74,
-    "bottomRow": 78,
-    "parentRowSpace": 10,
-    "labelWidth": "9",
-    "type": "SINGLE_SELECT_TREE_WIDGET",
-    "hideCard": false,
-    "defaultOptionValue": "BLUE",
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 43,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Left",
-    "options": [
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": false,
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 78,
+  "boxShadow": "none",
+  "defaultOptionValue": "BLUE",
+  "displayName": "TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "labelWidth"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "expandAll": false,
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.bd99caba5853ad71e4b3d8daffacb3a2.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "gized2efji",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Label",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "9",
+  "leftColumn": 43,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "children": [
         {
-            "children": [
-                {
-                    "label": "Dark Blue",
-                    "value": "DARK BLUE"
-                },
-                {
-                    "label": "Light Blue",
-                    "value": "LIGHT BLUE"
-                }
-            ],
-            "label": "Blue",
-            "value": "BLUE"
+          "label": "Dark Blue",
+          "value": "DARK BLUE"
         },
         {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
+          "label": "Light Blue",
+          "value": "LIGHT BLUE"
         }
-    ],
-    "placeholderText": "Select option",
-    "isDisabled": false,
-    "key": "gized2efji",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 63,
-    "dynamicHeight": "FIXED",
-    "widgetId": "kqhvzen7o4",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "expandAll": false,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "allowClear": false,
-    "minDynamicHeight": 4
+      ],
+      "label": "Blue",
+      "value": "BLUE"
+    },
+    {
+      "label": "Green",
+      "value": "GREEN"
+    },
+    {
+      "label": "Red",
+      "value": "RED"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option",
+  "renderMode": "CANVAS",
+  "rightColumn": 63,
+  "searchTags": [
+    "dropdown"
+  ],
+  "topRow": 74,
+  "type": "SINGLE_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "kqhvzen7o4",
+  "widgetName": "TreeSelect1"
 }

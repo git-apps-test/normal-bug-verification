@@ -1,34 +1,44 @@
 {
-    "widgetName": "Progress1",
-    "progressType": "circular",
-    "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "progress"}],
-    "displayName": "Progress",
-    "iconSVG": "/static/media/icon.9b0d7b96a0223e8120bf6f14aca4154a.svg",
-    "searchTags": ["percent"],
-    "topRow": 3,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "type": "PROGRESS_WIDGET",
-    "isIndeterminate": false,
-    "hideCard": false,
-    "fillColor": "",
-    "parentColumnSpace": 12.5625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 8,
-    "dynamicBindingPathList": [{"key": "progress"}],
-    "key": "x5ni0u8by7",
-    "showResult": false,
-    "isDeprecated": false,
-    "rightColumn": 36,
-    "counterClosewise": false,
-    "widgetId": "4iiyhz2ofa",
-    "isVisible": true,
-    "steps": "1",
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "progress": "{{Input1.text}}"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "counterClosewise": false,
+  "displayName": "Progress",
+  "dynamicBindingPathList": [
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicPropertyPathList": [
+    {
+      "key": "progress"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "fillColor": "",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.9b0d7b96a0223e8120bf6f14aca4154a.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isIndeterminate": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "x5ni0u8by7",
+  "leftColumn": 8,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "progress": "{{Input1.text}}",
+  "progressType": "circular",
+  "renderMode": "CANVAS",
+  "rightColumn": 36,
+  "searchTags": [
+    "percent"
+  ],
+  "showResult": false,
+  "steps": "1",
+  "topRow": 3,
+  "type": "PROGRESS_WIDGET",
+  "version": 1,
+  "widgetId": "4iiyhz2ofa",
+  "widgetName": "Progress1"
 }

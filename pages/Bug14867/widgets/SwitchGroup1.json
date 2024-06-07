@@ -1,54 +1,64 @@
 {
-    "widgetName": "SwitchGroup1",
-    "isCanvas": false,
-    "dynamicPropertyPathList": [{"key": "labelWidth"}],
-    "displayName": "Switch Group",
-    "iconSVG": "/static/media/icon.c98225eee52c61080cd91042d88545c8.svg",
-    "labelText": "Label",
-    "topRow": 72,
-    "bottomRow": 78,
-    "parentRowSpace": 10,
-    "labelWidth": "o",
-    "type": "SWITCH_GROUP_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 8,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Blue",
-            "value": "BLUE"
-        },
-        {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
-        }
-    ],
-    "isDisabled": false,
-    "key": "i9cb4no1sm",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 34,
-    "defaultSelectedValues": ["BLUE"],
-    "dynamicHeight": "FIXED",
-    "widgetId": "rd9g1iafqv",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 78,
+  "defaultSelectedValues": [
+    "BLUE"
+  ],
+  "displayName": "Switch Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "labelWidth"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.c98225eee52c61080cd91042d88545c8.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "i9cb4no1sm",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Label",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "o",
+  "leftColumn": 8,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Blue",
+      "value": "BLUE"
+    },
+    {
+      "label": "Green",
+      "value": "GREEN"
+    },
+    {
+      "label": "Red",
+      "value": "RED"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 34,
+  "topRow": 72,
+  "type": "SWITCH_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "rd9g1iafqv",
+  "widgetName": "SwitchGroup1"
 }

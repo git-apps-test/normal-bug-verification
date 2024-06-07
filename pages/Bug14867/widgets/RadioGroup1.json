@@ -1,51 +1,57 @@
 {
-    "boxShadow": "none",
-    "widgetName": "RadioGroup1",
-    "dynamicPropertyPathList": [],
-    "displayName": "Radio Group",
-    "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
-    "searchTags": ["choice"],
-    "topRow": 59,
-    "bottomRow": 67,
-    "parentRowSpace": 10,
-    "labelWidth": 10,
-    "type": "RADIO_GROUP_WIDGET",
-    "hideCard": false,
-    "defaultOptionValue": "Y",
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 5,
-    "dynamicBindingPathList": [{"key": "accentColor"}],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Yes",
-            "value": "Y"
-        },
-        {
-            "label": "No",
-            "value": "N"
-        }
-    ],
-    "isDisabled": false,
-    "key": "4k6ba8rhzi",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 25,
-    "dynamicHeight": "FIXED",
-    "widgetId": "cvdy0n4snr",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "label": "Label",
-    "version": 1,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "alignment": "left",
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "alignment": "left",
+  "animateLoading": true,
+  "bottomRow": 67,
+  "boxShadow": "none",
+  "defaultOptionValue": "Y",
+  "displayName": "Radio Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ba2b2ee006e51a5c681d7964d7777481.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "4k6ba8rhzi",
+  "label": "Label",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelTextSize": "0.875rem",
+  "labelWidth": 10,
+  "leftColumn": 5,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Yes",
+      "value": "Y"
+    },
+    {
+      "label": "No",
+      "value": "N"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 25,
+  "searchTags": [
+    "choice"
+  ],
+  "topRow": 59,
+  "type": "RADIO_GROUP_WIDGET",
+  "version": 1,
+  "widgetId": "cvdy0n4snr",
+  "widgetName": "RadioGroup1"
 }
