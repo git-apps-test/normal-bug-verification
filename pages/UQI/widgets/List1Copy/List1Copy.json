@@ -516,7 +516,7 @@
     "animateLoading": true,
     "parentColumnSpace": 12.5625,
     "dynamicTriggerPathList": [],
-    "leftColumn": 32,
+    "leftColumn": 44,
     "dynamicBindingPathList": [
         {"key": "accentColor"},
         {"key": "borderRadius"},
@@ -568,7 +568,7 @@
     "key": "vcyn5eniva",
     "backgroundColor": "transparent",
     "isDeprecated": false,
-    "rightColumn": 56,
+    "rightColumn": 64,
     "itemBackgroundColor": "#FFFFFF",
     "widgetId": "s1g09d5d5m",
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",

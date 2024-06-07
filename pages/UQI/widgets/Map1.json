@@ -17,7 +17,7 @@
     "animateLoading": true,
     "allowZoom": true,
     "parentColumnSpace": 12.5625,
-    "leftColumn": 7,
+    "leftColumn": 20,
     "dynamicBindingPathList": [
         {"key": "borderRadius"},
         {"key": "boxShadow"}
@@ -32,7 +32,7 @@
     "enableSearch": true,
     "key": "wbcyok5kce",
     "isDeprecated": false,
-    "rightColumn": 31,
+    "rightColumn": 44,
     "widgetId": "r30ta5ycg5",
     "isVisible": true,
     "version": 1,
