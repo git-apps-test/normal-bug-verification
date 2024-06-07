@@ -1,0 +1,4 @@
+UPDATE suppliers
+  SET company_name = 'New Orleans Cajun Delight new abcd'
+  WHERE supplier_id = {{ Table4.selectedRow.supplier_id }};
+

@@ -1,0 +1,2 @@
+DELETE FROM PUBLIC.USERS
+  WHERE UPDATEDAT = {{data_table.triggeredRow.UPDATEDAT}};

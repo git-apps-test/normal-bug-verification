@@ -1,0 +1,2 @@
+DELETE FROM App_detailes
+  WHERE app_id = {{data_table.triggeredRow.app_id}};

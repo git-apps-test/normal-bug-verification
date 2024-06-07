@@ -1,0 +1,32 @@
+{
+    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+    "widgetName": "Iframe1",
+    "displayName": "Iframe",
+    "iconSVG": "/static/media/icon.34169b6acebc8ace125dd1f638974aae.svg",
+    "searchTags": ["embed"],
+    "topRow": 130,
+    "bottomRow": 162,
+    "parentRowSpace": 10,
+    "source": "https://www.example.com",
+    "type": "IFRAME_WIDGET",
+    "hideCard": false,
+    "borderOpacity": 100,
+    "animateLoading": true,
+    "parentColumnSpace": 12.5625,
+    "leftColumn": 11,
+    "dynamicBindingPathList": [
+        {"key": "borderRadius"},
+        {"key": "boxShadow"}
+    ],
+    "borderWidth": 1,
+    "key": "shtgpuuq4o",
+    "isDeprecated": false,
+    "rightColumn": 35,
+    "widgetId": "orkogw3tyo",
+    "isVisible": true,
+    "version": 1,
+    "parentId": "0",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+}

@@ -1,0 +1,20 @@
+{
+  "unpublishedCollection": {
+    "name": "JSObject1",
+    "pageId": "MultiTreeSelect",
+    "pluginId": "js-plugin",
+    "pluginType": "JS",
+    "actions": [],
+    "archivedActions": [],
+    "variables": [
+      {
+        "name": "colors",
+        "value": "[{\n  \"label\": \"Blue\",\n  \"value\": \"BLUE\",\n  \"children\": [{\n    \"label\": \"Dark Blue\",\n    \"value\": \"DARK BLUE\"\n  }, {\n    \"label\": \"Light Blue\",\n    \"value\": \"LIGHT BLUE\"\n  }]\n}, {\n  \"label\": \"Green\",\n  \"value\": \"GREEN\"\n}, {\n  \"label\": \"Red\",\n  \"value\": \"RED\"\n}]"
+      }
+    ],
+    "userPermissions": []
+  },
+  "id": "MultiTreeSelect_JSObject1",
+  "deleted": false,
+  "gitSyncId": "62b05c776b9e4a636e38838c_642d0a3835adf971f7a48972"
+}

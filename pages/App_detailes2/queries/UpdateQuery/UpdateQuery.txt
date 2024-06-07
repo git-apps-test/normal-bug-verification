@@ -1,0 +1,6 @@
+UPDATE App_detailes SET
+		appname = '{{update_form.fieldState.appname.isVisible ? update_form.formData.appname : update_form.sourceData.appname}}',
+		password = '{{update_form.fieldState.password.isVisible ? update_form.formData.password : update_form.sourceData.password}}',
+    email = '{{update_form.fieldState.email.isVisible ? update_form.formData.email : update_form.sourceData.email}}',
+		created_on = '{{update_form.fieldState.created_on.isVisible ? update_form.formData.created_on : update_form.sourceData.created_on}}'
+WHERE app_id = {{data_table.selectedRow.app_id}};

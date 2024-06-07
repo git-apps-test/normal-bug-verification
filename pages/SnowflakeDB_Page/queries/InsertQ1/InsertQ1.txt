@@ -1,0 +1,6 @@
+INSERT INTO users
+  (id, name, createdAt, updatedAt, gender, email, DOB, PHONENO)
+VALUES
+  (
+   4, '{{Input1.text}}' ,'{{DatePicker1.selectedDate}}','{{DatePicker2.selectedDate}}','{{Select1.selectedOptionLabel}}','{{Input2.text}}', '12/01/1881', 9980019117
+  );

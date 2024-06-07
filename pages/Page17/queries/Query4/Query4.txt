@@ -1,0 +1,6 @@
+DELIMITER //
+CREATE PROCEDURE GetEmployeesBySalary() 
+BEGIN
+SELECT * FROM employees where salary = 43 
+END //
+DELIMITER;

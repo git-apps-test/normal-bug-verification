@@ -1,0 +1,11 @@
+UPDATE public."TableWidget" SET
+    "Test Case Num" = '',
+    "Area of Focus" = '',
+    "Type (Negative/Positive)" = '',
+    "Steps" = '',
+    "Expected Result" = '',
+    "Actual Result" = '',
+    "Comments" = '',
+    "Automated (Y / N)" = '',
+    "Automated by (Dev/QA)" = ''
+  WHERE 1 = 0; -- Specify a valid condition here. Removing the condition may update every row in the table!

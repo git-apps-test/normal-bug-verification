@@ -1,0 +1,3 @@
+UPDATE users
+  SET email = 'Jaiwas@gmail.com'
+  WHERE id = 3;

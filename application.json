@@ -1,0 +1,170 @@
+{
+  "pages": [
+    {
+      "id": "Bug14620",
+      "isDefault": false
+    },
+    {
+      "id": "Page4",
+      "isDefault": false
+    },
+    {
+      "id": "Bug14384",
+      "isDefault": false
+    },
+    {
+      "id": "Bug14885",
+      "isDefault": false
+    },
+    {
+      "id": "Bug12835",
+      "isDefault": false
+    },
+    {
+      "id": "Bug14608",
+      "isDefault": false
+    },
+    {
+      "id": "Bug11140_14678",
+      "isDefault": false
+    },
+    {
+      "id": "Bug14678",
+      "isDefault": false
+    },
+    {
+      "id": "Page7",
+      "isDefault": false
+    },
+    {
+      "id": "Page6",
+      "isDefault": false
+    },
+    {
+      "id": "Bug14867",
+      "isDefault": false
+    },
+    {
+      "id": "Page10",
+      "isDefault": false
+    },
+    {
+      "id": "Page11",
+      "isDefault": false
+    },
+    {
+      "id": "Bug13928",
+      "isDefault": false
+    },
+    {
+      "id": "Page12",
+      "isDefault": false
+    },
+    {
+      "id": "App_detailes",
+      "isDefault": false
+    },
+    {
+      "id": "Page13",
+      "isDefault": false
+    },
+    {
+      "id": "UQI",
+      "isDefault": true
+    },
+    {
+      "id": "App_detailes2",
+      "isDefault": false
+    },
+    {
+      "id": "Page14",
+      "isDefault": false
+    },
+    {
+      "id": "Public.users",
+      "isDefault": false
+    },
+    {
+      "id": "Page15",
+      "isDefault": false
+    },
+    {
+      "id": "SnowflakeDB_Page",
+      "isDefault": false
+    },
+    {
+      "id": "Public.users2",
+      "isDefault": false
+    },
+    {
+      "id": "Page16",
+      "isDefault": false
+    },
+    {
+      "id": "Page17",
+      "isDefault": false
+    },
+    {
+      "id": "Page18",
+      "isDefault": false
+    },
+    {
+      "id": "Customer Data",
+      "isDefault": false
+    },
+    {
+      "id": "Public.users3",
+      "isDefault": false
+    },
+    {
+      "id": "Page19",
+      "isDefault": false
+    },
+    {
+      "id": "Send Messages",
+      "isDefault": false
+    },
+    {
+      "id": "MultiTreeSelect",
+      "isDefault": false
+    },
+    {
+      "id": "Bug",
+      "isDefault": false
+    },
+    {
+      "id": "USERS",
+      "isDefault": false
+    },
+    {
+      "id": "Page20",
+      "isDefault": false
+    },
+    {
+      "id": "Page20 Copy",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "clonedFromApplicationId": "6491352af3d9754dda7886f3",
+  "color": "#C7F3E3",
+  "icon": "book",
+  "unpublishedAppLayout": {
+    "type": "FLUID"
+  },
+  "publishedAppLayout": {
+    "type": "FLUID"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "isManualUpdate": false,
+  "deleted": false
+}

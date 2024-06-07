@@ -1,0 +1,41 @@
+{
+    "widgetName": "Text1",
+    "displayName": "Text",
+    "iconSVG": "/static/media/icon.97c59b523e6f70ba6f40a10fc2c7c5b5.svg",
+    "searchTags": [
+        "typography",
+        "paragraph"
+    ],
+    "topRow": 1,
+    "bottomRow": 5,
+    "type": "TEXT_WIDGET",
+    "hideCard": false,
+    "animateLoading": true,
+    "overflow": "NONE",
+    "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
+    "leftColumn": 1,
+    "dynamicBindingPathList": [
+        {"key": "fontFamily"},
+        {"key": "borderRadius"}
+    ],
+    "shouldTruncate": false,
+    "truncateButtonColor": "#FFC13D",
+    "text": "Modal Title",
+    "key": "2izv8mzer8",
+    "isDeprecated": false,
+    "rightColumn": 41,
+    "textAlign": "LEFT",
+    "dynamicHeight": "FIXED",
+    "widgetId": "n6mnp6elfh",
+    "isVisible": true,
+    "fontStyle": "BOLD",
+    "textColor": "#231F20",
+    "version": 1,
+    "parentId": "uqnk07tbp3",
+    "renderMode": "CANVAS",
+    "isLoading": false,
+    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "maxDynamicHeight": 9000,
+    "fontSize": "1.5rem",
+    "minDynamicHeight": 4
+}
