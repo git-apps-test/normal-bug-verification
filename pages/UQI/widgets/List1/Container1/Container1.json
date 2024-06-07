@@ -1,73 +1,83 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Container1",
-    "borderColor": "transparent",
-    "disallowCopy": true,
-    "isCanvas": true,
-    "displayName": "Container",
-    "iconSVG": "/static/media/icon.1977dca3.svg",
-    "searchTags": [
-        "div",
-        "parent",
-        "group"
-    ],
-    "topRow": 0,
-    "bottomRow": 12,
-    "dragDisabled": true,
-    "type": "CONTAINER_WIDGET",
-    "hideCard": false,
-    "openParentPropertyPane": true,
-    "isDeletable": false,
-    "animateLoading": true,
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "children": [{
-        "boxShadow": "none",
-        "widgetName": "Canvas2",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 260,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
-        "key": "c0840b0jny",
-        "isDeprecated": false,
-        "detachFromLayout": true,
-        "widgetId": "74t47eshzy",
-        "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "pyvla6iara",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-    }],
-    "borderWidth": "0",
-    "key": "0rbbwxb7h1",
-    "disablePropertyPane": true,
-    "backgroundColor": "white",
-    "isDeprecated": false,
-    "rightColumn": 64,
-    "dynamicHeight": "FIXED",
-    "widgetId": "pyvla6iara",
-    "containerStyle": "card",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "vvogro7xpl",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "backgroundColor": "white",
+  "borderColor": "transparent",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": "0",
+  "bottomRow": 12,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 260,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "accentColor"
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "c0840b0jny",
+      "leftColumn": 0,
+      "parentColumnSpace": 1,
+      "parentId": "pyvla6iara",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "74t47eshzy",
+      "widgetName": "Canvas2"
+    }
+  ],
+  "containerStyle": "card",
+  "disablePropertyPane": true,
+  "disallowCopy": true,
+  "displayName": "Container",
+  "dragDisabled": true,
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.1977dca3.svg",
+  "isCanvas": true,
+  "isDeletable": false,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "0rbbwxb7h1",
+  "leftColumn": 0,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "openParentPropertyPane": true,
+  "parentId": "vvogro7xpl",
+  "renderMode": "CANVAS",
+  "rightColumn": 64,
+  "searchTags": [
+    "div",
+    "parent",
+    "group"
+  ],
+  "topRow": 0,
+  "type": "CONTAINER_WIDGET",
+  "version": 1,
+  "widgetId": "pyvla6iara",
+  "widgetName": "Container1"
 }

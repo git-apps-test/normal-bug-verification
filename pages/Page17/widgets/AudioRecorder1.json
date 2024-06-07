@@ -1,37 +1,41 @@
 {
-    "boxShadow": "none",
-    "widgetName": "AudioRecorder1",
-    "displayName": "Audio Recorder",
-    "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
-    "searchTags": [
-        "sound recorder",
-        "voice recorder"
-    ],
-    "topRow": 0,
-    "bottomRow": 7,
-    "parentRowSpace": 10,
-    "type": "AUDIO_RECORDER_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.5625,
-    "leftColumn": 1,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "isDisabled": false,
-    "key": "1f05qc7w82",
-    "isDeprecated": false,
-    "rightColumn": 17,
-    "widgetId": "7i26jpuu2r",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "originalTopRow": 18,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "originalBottomRow": 25,
-    "iconColor": "white"
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 7,
+  "boxShadow": "none",
+  "displayName": "Audio Recorder",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "hideCard": false,
+  "iconColor": "white",
+  "iconSVG": "/static/media/icon.3cb03cd8ed8464c5725a5d89a8fa563f.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "1f05qc7w82",
+  "leftColumn": 1,
+  "originalBottomRow": 25,
+  "originalTopRow": 18,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 17,
+  "searchTags": [
+    "sound recorder",
+    "voice recorder"
+  ],
+  "topRow": 0,
+  "type": "AUDIO_RECORDER_WIDGET",
+  "version": 1,
+  "widgetId": "7i26jpuu2r",
+  "widgetName": "AudioRecorder1"
 }

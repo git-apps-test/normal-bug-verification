@@ -1,31 +1,37 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Video1",
-    "displayName": "Video",
-    "iconSVG": "/static/media/icon.39c2d6968b6bb91bbe019646a9243566.svg",
-    "searchTags": ["youtube"],
-    "topRow": 288,
-    "bottomRow": 316,
-    "parentRowSpace": 10,
-    "type": "VIDEO_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.5625,
-    "leftColumn": 30,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "key": "9xw9mqdfpa",
-    "isDeprecated": false,
-    "rightColumn": 54,
-    "widgetId": "c0oi4dthdt",
-    "isVisible": true,
-    "version": 1,
-    "url": "https://assets.appsmith.com/widgets/bird.mp4",
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "autoPlay": false
+  "animateLoading": true,
+  "autoPlay": false,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 316,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Video",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.39c2d6968b6bb91bbe019646a9243566.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "9xw9mqdfpa",
+  "leftColumn": 30,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 54,
+  "searchTags": [
+    "youtube"
+  ],
+  "topRow": 288,
+  "type": "VIDEO_WIDGET",
+  "url": "https://assets.appsmith.com/widgets/bird.mp4",
+  "version": 1,
+  "widgetId": "c0oi4dthdt",
+  "widgetName": "Video1"
 }

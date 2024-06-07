@@ -1,56 +1,64 @@
 {
-    "widgetName": "CheckboxGroup1",
-    "dynamicPropertyPathList": [{"key": "labelWidth"}],
-    "displayName": "Checkbox Group",
-    "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
-    "labelText": "Label",
-    "topRow": 10,
-    "bottomRow": 16,
-    "parentRowSpace": 10,
-    "labelWidth": "",
-    "type": "CHECKBOX_GROUP_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.25,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 3,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "borderRadius"}
-    ],
-    "labelPosition": "Left",
-    "options": [
-        {
-            "label": "Blue",
-            "value": "BLUE"
-        },
-        {
-            "label": "Green",
-            "value": "GREEN"
-        },
-        {
-            "label": "Red",
-            "value": "RED"
-        }
-    ],
-    "isDisabled": false,
-    "key": "0lpg7cblwm",
-    "labelTextSize": "0.875rem",
-    "isRequired": false,
-    "isDeprecated": false,
-    "rightColumn": 26,
-    "defaultSelectedValues": "BLUE",
-    "dynamicHeight": "FIXED",
-    "widgetId": "zybv7cqhk0",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": true,
-    "version": 2,
-    "parentId": "0",
-    "labelAlignment": "left",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "isInline": true,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "animateLoading": true,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 16,
+  "defaultSelectedValues": "BLUE",
+  "displayName": "Checkbox Group",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "dynamicPropertyPathList": [
+    {
+      "key": "labelWidth"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ecb3847950c4515966ef642a32758afb.svg",
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isInline": true,
+  "isLoading": false,
+  "isRequired": false,
+  "isVisible": true,
+  "key": "0lpg7cblwm",
+  "labelAlignment": "left",
+  "labelPosition": "Left",
+  "labelText": "Label",
+  "labelTextSize": "0.875rem",
+  "labelWidth": "",
+  "leftColumn": 3,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "options": [
+    {
+      "label": "Blue",
+      "value": "BLUE"
+    },
+    {
+      "label": "Green",
+      "value": "GREEN"
+    },
+    {
+      "label": "Red",
+      "value": "RED"
+    }
+  ],
+  "parentColumnSpace": 12.25,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 26,
+  "topRow": 10,
+  "type": "CHECKBOX_GROUP_WIDGET",
+  "version": 2,
+  "widgetId": "zybv7cqhk0",
+  "widgetName": "CheckboxGroup1"
 }

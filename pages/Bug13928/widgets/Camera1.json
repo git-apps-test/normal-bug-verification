@@ -1,32 +1,36 @@
 {
-    "boxShadow": "none",
-    "widgetName": "Camera1",
-    "isCanvas": false,
-    "displayName": "Camera",
-    "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
-    "searchTags": [
-        "photo",
-        "video recorder"
-    ],
-    "topRow": 36,
-    "bottomRow": 69,
-    "parentRowSpace": 10,
-    "type": "CAMERA_WIDGET",
-    "hideCard": false,
-    "mode": "CAMERA",
-    "parentColumnSpace": 12.5625,
-    "leftColumn": 5,
-    "dynamicBindingPathList": [{"key": "borderRadius"}],
-    "isDisabled": false,
-    "key": "jj4yrzfeid",
-    "isMirrored": true,
-    "isDeprecated": false,
-    "rightColumn": 30,
-    "widgetId": "vazw318knf",
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 69,
+  "boxShadow": "none",
+  "displayName": "Camera",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    }
+  ],
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.79c0d6de26a15bf464f2485130faa461.svg",
+  "isCanvas": false,
+  "isDeprecated": false,
+  "isDisabled": false,
+  "isLoading": false,
+  "isMirrored": true,
+  "isVisible": true,
+  "key": "jj4yrzfeid",
+  "leftColumn": 5,
+  "mode": "CAMERA",
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 30,
+  "searchTags": [
+    "photo",
+    "video recorder"
+  ],
+  "topRow": 36,
+  "type": "CAMERA_WIDGET",
+  "version": 1,
+  "widgetId": "vazw318knf",
+  "widgetName": "Camera1"
 }

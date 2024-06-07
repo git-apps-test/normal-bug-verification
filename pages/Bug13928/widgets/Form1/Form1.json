@@ -1,64 +1,76 @@
 {
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "widgetName": "Form1",
-    "isCanvas": true,
-    "displayName": "Form",
-    "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
-    "searchTags": ["group"],
-    "topRow": 100,
-    "bottomRow": 140,
-    "parentRowSpace": 10,
-    "type": "FORM_WIDGET",
-    "hideCard": false,
-    "animateLoading": true,
-    "parentColumnSpace": 12.5625,
-    "leftColumn": 36,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "children": [{
-        "boxShadow": "none",
-        "widgetName": "Canvas2",
-        "displayName": "Canvas",
-        "topRow": 0,
-        "bottomRow": 400,
-        "parentRowSpace": 1,
-        "type": "CANVAS_WIDGET",
-        "canExtend": false,
-        "hideCard": true,
-        "minHeight": 400,
-        "parentColumnSpace": 1,
-        "leftColumn": 0,
-        "dynamicBindingPathList": [
-            {"key": "borderRadius"},
-            {"key": "accentColor"}
-        ],
-        "key": "wg4za24g6q",
-        "isDeprecated": false,
-        "rightColumn": 301.5,
-        "detachFromLayout": true,
-        "widgetId": "drzfk40hvr",
-        "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-        "containerStyle": "none",
-        "isVisible": true,
-        "version": 1,
-        "parentId": "xgl9rjqzns",
-        "renderMode": "CANVAS",
-        "isLoading": false,
-        "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}"
-    }],
-    "key": "mhl68xy51i",
-    "backgroundColor": "#FFFFFF",
-    "isDeprecated": false,
-    "rightColumn": 60,
-    "dynamicHeight": "FIXED",
-    "widgetId": "xgl9rjqzns",
-    "isVisible": true,
-    "parentId": "0",
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "maxDynamicHeight": 9000,
-    "minDynamicHeight": 4
+  "animateLoading": true,
+  "backgroundColor": "#FFFFFF",
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "bottomRow": 140,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "children": [
+    {
+      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+      "bottomRow": 400,
+      "boxShadow": "none",
+      "canExtend": false,
+      "containerStyle": "none",
+      "detachFromLayout": true,
+      "displayName": "Canvas",
+      "dynamicBindingPathList": [
+        {
+          "key": "borderRadius"
+        },
+        {
+          "key": "accentColor"
+        }
+      ],
+      "hideCard": true,
+      "isDeprecated": false,
+      "isLoading": false,
+      "isVisible": true,
+      "key": "wg4za24g6q",
+      "leftColumn": 0,
+      "minHeight": 400,
+      "parentColumnSpace": 1,
+      "parentId": "xgl9rjqzns",
+      "parentRowSpace": 1,
+      "renderMode": "CANVAS",
+      "rightColumn": 301.5,
+      "topRow": 0,
+      "type": "CANVAS_WIDGET",
+      "version": 1,
+      "widgetId": "drzfk40hvr",
+      "widgetName": "Canvas2"
+    }
+  ],
+  "displayName": "Form",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "FIXED",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.ea3e08d130e59c56867ae40114c10eed.svg",
+  "isCanvas": true,
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "mhl68xy51i",
+  "leftColumn": 36,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "rightColumn": 60,
+  "searchTags": [
+    "group"
+  ],
+  "topRow": 100,
+  "type": "FORM_WIDGET",
+  "widgetId": "xgl9rjqzns",
+  "widgetName": "Form1"
 }

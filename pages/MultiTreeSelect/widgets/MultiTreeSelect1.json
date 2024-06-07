@@ -1,68 +1,100 @@
 {
-    "boxShadow": "{{RadioGroup1.selectedOptionValue === 'Y'?'0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)':'none'}}",
-    "iconSVG": "/static/media/icon.b3e28afbbceae59d6fe826fa409a4b4c.svg",
-    "labelText": "{{Text1.text}}",
-    "topRow": 3,
-    "labelWidth": "7",
-    "type": "MULTI_SELECT_TREE_WIDGET",
-    "mode": "SHOW_ALL",
-    "defaultOptionValue": "[\n  \"GREEN\"\n]",
-    "animateLoading": true,
-    "leftColumn": 7,
-    "dynamicBindingPathList": [
-        {"key": "accentColor"},
-        {"key": "options"},
-        {"key": "labelText"},
-        {"key": "isRequired"},
-        {"key": "isVisible"},
-        {"key": "isDisabled"},
-        {"key": "expandAll"},
-        {"key": "boxShadow"}
-    ],
-    "labelTooltip": "Select from dropdown",
-    "options": "{{JSObject1.colors}}",
-    "labelStyle": "ITALIC,BOLD",
-    "placeholderText": "Select option(s) from dropdown",
-    "isDisabled": "{{Checkbox3.isChecked}}",
-    "isRequired": "{{Checkbox1.isChecked}}",
-    "dynamicHeight": "AUTO_HEIGHT",
-    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
-    "isVisible": "{{Checkbox2.isChecked}}",
-    "version": 1,
-    "expandAll": "{{Checkbox4.isChecked}}",
-    "isLoading": false,
-    "borderRadius": "1.5rem",
-    "originalBottomRow": 10,
-    "widgetName": "MultiTreeSelect1",
-    "dynamicPropertyPathList": [
-        {"key": "isRequired"},
-        {"key": "isVisible"},
-        {"key": "isDisabled"},
-        {"key": "expandAll"},
-        {"key": "boxShadow"}
-    ],
-    "displayName": "Multi TreeSelect",
-    "searchTags": ["dropdown"],
-    "bottomRow": 7,
-    "parentRowSpace": 10,
-    "hideCard": false,
-    "shouldScrollContents": true,
-    "parentColumnSpace": 12.5625,
-    "dynamicTriggerPathList": [{"key": "onOptionChange"}],
-    "labelPosition": "Left",
-    "key": "mp3mujsijc",
-    "labelTextSize": "0.875rem",
-    "isDeprecated": false,
-    "rightColumn": 41,
-    "widgetId": "afffghfzzl",
-    "minWidth": 450,
-    "parentId": "0",
-    "labelAlignment": "right",
-    "renderMode": "CANVAS",
-    "responsiveBehavior": "fill",
-    "originalTopRow": 3,
-    "maxDynamicHeight": 9000,
-    "onOptionChange": "{{showModal('Modal1')}}",
-    "allowClear": true,
-    "minDynamicHeight": 4
+  "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+  "allowClear": true,
+  "animateLoading": true,
+  "borderRadius": "1.5rem",
+  "bottomRow": 7,
+  "boxShadow": "{{RadioGroup1.selectedOptionValue === 'Y'?'0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)':'none'}}",
+  "defaultOptionValue": "[\n  \"GREEN\"\n]",
+  "displayName": "Multi TreeSelect",
+  "dynamicBindingPathList": [
+    {
+      "key": "accentColor"
+    },
+    {
+      "key": "options"
+    },
+    {
+      "key": "labelText"
+    },
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "expandAll"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicHeight": "AUTO_HEIGHT",
+  "dynamicPropertyPathList": [
+    {
+      "key": "isRequired"
+    },
+    {
+      "key": "isVisible"
+    },
+    {
+      "key": "isDisabled"
+    },
+    {
+      "key": "expandAll"
+    },
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [
+    {
+      "key": "onOptionChange"
+    }
+  ],
+  "expandAll": "{{Checkbox4.isChecked}}",
+  "hideCard": false,
+  "iconSVG": "/static/media/icon.b3e28afbbceae59d6fe826fa409a4b4c.svg",
+  "isDeprecated": false,
+  "isDisabled": "{{Checkbox3.isChecked}}",
+  "isLoading": false,
+  "isRequired": "{{Checkbox1.isChecked}}",
+  "isVisible": "{{Checkbox2.isChecked}}",
+  "key": "mp3mujsijc",
+  "labelAlignment": "right",
+  "labelPosition": "Left",
+  "labelStyle": "ITALIC,BOLD",
+  "labelText": "{{Text1.text}}",
+  "labelTextSize": "0.875rem",
+  "labelTooltip": "Select from dropdown",
+  "labelWidth": "7",
+  "leftColumn": 7,
+  "maxDynamicHeight": 9000,
+  "minDynamicHeight": 4,
+  "minWidth": 450,
+  "mode": "SHOW_ALL",
+  "onOptionChange": "{{showModal('Modal1')}}",
+  "options": "{{JSObject1.colors}}",
+  "originalBottomRow": 10,
+  "originalTopRow": 3,
+  "parentColumnSpace": 12.5625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "placeholderText": "Select option(s) from dropdown",
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 41,
+  "searchTags": [
+    "dropdown"
+  ],
+  "shouldScrollContents": true,
+  "topRow": 3,
+  "type": "MULTI_SELECT_TREE_WIDGET",
+  "version": 1,
+  "widgetId": "afffghfzzl",
+  "widgetName": "MultiTreeSelect1"
 }
